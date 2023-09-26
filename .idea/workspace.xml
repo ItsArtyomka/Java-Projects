@@ -5,35 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11f265c9-ba40-47aa-95cc-64fe2abfd42b" name="Changes" comment="New Commit: Added Maven and restructured my projects.">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HackerRankCoding/Introduction/Loops1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HackerRankCoding/Introduction/OutputFormatting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MyProjects/IsPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MyProjects/ReversingTheString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MyProjects/SimpleSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/Comparators/Student/StudentAvgExamScoreComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/Comparators/Student/StudentComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/Comparators/Student/StudentCurrentCourseNumberComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/Comparators/Student/StudentFullNameComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/Comparators/Student/StudentUniversityIdComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/Comparators/University/UniversityComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/Comparators/University/UniversityFullNameComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/Comparators/University/UniversityIdComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/Comparators/University/UniversityShortNameComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/Comparators/University/UniversityStudyProfileComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/Comparators/University/UniversityYearOfFoundationComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/Enums/StudentComparatorTypes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/Enums/StudyProfile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/Enums/UniversityComparatorTypes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/MainCode/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/MainCode/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/MainCode/University.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/MainCode/UtilClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/MainCode/JsonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/MainCode/Statistics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/MainCode/XlsBoot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/XlsIO/XlsReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/XlsIO/XlsWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/MainCode/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/MainCode/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/MainCode/University.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/MainCode/University.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,12 +24,19 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2VuALnhMDIcfcG3R1Ssy2e9eckW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -59,7 +47,9 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -75,12 +65,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1695675537528</updated>
-      <workItem from="1695675539035" duration="2383000" />
+      <workItem from="1695675539035" duration="2718000" />
+      <workItem from="1695754245613" duration="5300000" />
     </task>
+    <task id="LOCAL-00001" summary="New Commit: Added Maven and restructured my projects.">
+      <option name="closed" value="true" />
+      <created>1695678011737</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1695678011737</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New Commit: Added Maven and restructured my projects" />

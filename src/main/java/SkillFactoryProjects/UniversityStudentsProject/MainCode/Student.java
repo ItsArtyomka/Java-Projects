@@ -13,6 +13,8 @@ public class Student {
         this.avgExamScore = avgExamScore;
     }
 
+    public Student() {}
+
     public String getFullName() {
         return fullName;
     }

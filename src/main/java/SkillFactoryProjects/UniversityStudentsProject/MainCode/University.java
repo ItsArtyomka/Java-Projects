@@ -20,6 +20,8 @@ public class University {
         this.mainProfile = mainProfile;
     }
 
+    public University() {}
+
     public String getId() {
         return id;
     }
