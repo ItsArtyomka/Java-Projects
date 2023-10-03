@@ -1,11 +1,11 @@
 package SkillFactoryProjects.UniversityStudentsProject.Comparators.Student;
 
-import SkillFactoryProjects.UniversityStudentsProject.MainCode.Student;
+import SkillFactoryProjects.UniversityStudentsProject.Model.Student;
 import org.apache.commons.lang3.StringUtils;
 
-public class StudentUniversityIdComparator implements StudentComparator{
+public class StudentUniversityIdComparator implements StudentComparator {
     @Override
     public int compare(Student o1, Student o2) {
-        return StringUtils.compare(o1.getUniversityId(),o2.getUniversityId());
+        return StringUtils.compare(o1.getUniversityId(), o2.getUniversityId());
     }
 }

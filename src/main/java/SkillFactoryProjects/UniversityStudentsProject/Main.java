@@ -1,16 +1,23 @@
-package SkillFactoryProjects.UniversityStudentsProject.MainCode;
+package SkillFactoryProjects.UniversityStudentsProject;
 
 import SkillFactoryProjects.UniversityStudentsProject.Comparators.Student.StudentComparator;
 import SkillFactoryProjects.UniversityStudentsProject.Comparators.University.UniversityComparator;
 import SkillFactoryProjects.UniversityStudentsProject.Enums.StudentComparatorTypes;
 import SkillFactoryProjects.UniversityStudentsProject.Enums.StudyProfile;
 import SkillFactoryProjects.UniversityStudentsProject.Enums.UniversityComparatorTypes;
+import SkillFactoryProjects.UniversityStudentsProject.Model.Student;
+import SkillFactoryProjects.UniversityStudentsProject.Model.University;
+import SkillFactoryProjects.UniversityStudentsProject.Util.UtilClass;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@SuppressWarnings({"SpellCheckingInspection", "DuplicatedCode"})
 public class Main {
+
     public static void main(String[] args) {
+        // Logger Co
+
         //Lists
         List<Student> students = new ArrayList<>();
         List<University> universities = new ArrayList<>();
@@ -27,7 +34,6 @@ public class Main {
         students.add(new Student("Hannah White", "U008", 1, 2.8f));
         students.add(new Student("Isaac Martin", "U009", 2, 3.5f));
         students.add(new Student("Jack Harris", "U010", 3, 4.7f));
-
         //Universities
         universities.add(new University("U001", "XYZ University", "XYZU", 1990, StudyProfile.LINGUISTICS));
         universities.add(new University("U002", "ABC University", "ABCU", 1985, StudyProfile.PHYSICS));
@@ -55,56 +61,47 @@ public class Main {
 
         //STUDENTS SORTING
         //Name Sorting
-        System.out.println("Name Sorting: ");
         students.stream()
                 .sorted(nameComparator)
                 .forEach(System.out::println);
 
         //Uni Id Sorting
-        System.out.println("University Id Sorting: ");
         students.stream()
                 .sorted(uniIdComparator)
                 .forEach(System.out::println);
 
         //Current Course Sorting
-        System.out.println("Current Course Sorting: ");
         students.stream()
                 .sorted(currentCourseComparator)
                 .forEach(System.out::println);
 
         //Avg Exam Score Sorting
-        System.out.println("Average Exam Score Sorting: ");
         students.stream()
                 .sorted(avgExamScoreComparator)
                 .forEach(System.out::println);
 
         //UNIVERSITY SORTING
         //Id Sorting
-        System.out.println("Id Sorting: ");
         universities.stream()
                 .sorted(idComparator)
                 .forEach(System.out::println);
 
         //Full Name Sorting
-        System.out.println("Full Name Sorting: ");
         universities.stream()
                 .sorted(fullNameComparator)
                 .forEach(System.out::println);
 
         //Short Name Sorting
-        System.out.println("Short Name Sorting: ");
         universities.stream()
                 .sorted(shortNameComparator)
                 .forEach(System.out::println);
 
         //Study Profile Sorting
-        System.out.println("Study Profile Sorting: ");
         universities.stream()
                 .sorted(studyProfileComparator)
                 .forEach(System.out::println);
 
         //Year Of Foundation Profile Sorting
-        System.out.println("Year Of Foundation Profile Sorting: ");
         universities.stream()
                 .sorted(yearOfFoundationProfileComparator)
                 .forEach(System.out::println);

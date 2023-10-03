@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-10-03T19:45:23.529075100Z</date>
+  <millis>1696362323529</millis>
+  <nanos>75100</nanos>
+  <sequence>0</sequence>
+  <logger>SkillFactoryProjects.UniversityStudentsProject.Boot</logger>
+  <level>INFO</level>
+  <class>SkillFactoryProjects.UniversityStudentsProject.Boot</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application started, Logger configured</message>
+</record>
+<record>
+  <date>2023-10-03T19:45:23.611853400Z</date>
+  <millis>1696362323611</millis>
+  <nanos>853400</nanos>
+  <sequence>1</sequence>
+  <logger>SkillFactoryProjects.UniversityStudentsProject.Readers.XlsReader</logger>
+  <level>INFO</level>
+  <class>SkillFactoryProjects.UniversityStudentsProject.Readers.XlsReader</class>
+  <method>readXlsUniversities</method>
+  <thread>1</thread>
+  <message>Excel Reading Started...</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-10-03T19:46:23.425660900Z</date>
+  <millis>1696362383425</millis>
+  <nanos>660900</nanos>
+  <sequence>0</sequence>
+  <logger>SkillFactoryProjects.UniversityStudentsProject.Boot</logger>
+  <level>INFO</level>
+  <class>SkillFactoryProjects.UniversityStudentsProject.Boot</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application started, Logger configured</message>
+</record>
+<record>
+  <date>2023-10-03T19:46:23.488492800Z</date>
+  <millis>1696362383488</millis>
+  <nanos>492800</nanos>
+  <sequence>1</sequence>
+  <logger>SkillFactoryProjects.UniversityStudentsProject.Readers.XlsReader</logger>
+  <level>INFO</level>
+  <class>SkillFactoryProjects.UniversityStudentsProject.Readers.XlsReader</class>
+  <method>readXlsUniversities</method>
+  <thread>1</thread>
+  <message>Excel Reading Started...</message>
+</record>
+</log>

@@ -1,6 +1,6 @@
 package SkillFactoryProjects.UniversityStudentsProject.Comparators.University;
 
-import SkillFactoryProjects.UniversityStudentsProject.MainCode.University;
+import SkillFactoryProjects.UniversityStudentsProject.Model.University;
 
 import java.util.Comparator;
 

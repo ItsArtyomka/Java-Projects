@@ -1,7 +1,7 @@
 package SkillFactoryProjects.UniversityStudentsProject.Comparators.Student;
 
 
-import SkillFactoryProjects.UniversityStudentsProject.MainCode.Student;
+import SkillFactoryProjects.UniversityStudentsProject.Model.Student;
 
 public class StudentCurrentCourseNumberComparator implements StudentComparator {
     @Override

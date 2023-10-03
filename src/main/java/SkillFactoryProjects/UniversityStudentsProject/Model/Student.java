@@ -1,9 +1,23 @@
-package SkillFactoryProjects.UniversityStudentsProject.MainCode;
+package SkillFactoryProjects.UniversityStudentsProject.Model;
+
+import com.google.gson.annotations.SerializedName;
+
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlTransient;
 
 public class Student {
+    @SerializedName("studentName")
+    @XmlElement(name = "studentName")
     private String fullName;
+    @SerializedName("universityId")
+    @XmlElement(name = "universityId")
     private String universityId;
+
+    @SerializedName("course")
+    @XmlTransient
     private int currentCourseNumber;
+    @SerializedName("avgScore")
+    @XmlElement(name = "avgScore")
     private float avgExamScore;
 
     public Student(String fullName, String universityId, int currentCourseNumber, float avgExamScore) {
@@ -13,7 +27,8 @@ public class Student {
         this.avgExamScore = avgExamScore;
     }
 
-    public Student() {}
+    public Student() {
+    }
 
     public String getFullName() {
         return fullName;
@@ -55,9 +70,5 @@ public class Student {
                 ", currentCourseNumber=" + currentCourseNumber +
                 ", avgExamScore=" + avgExamScore +
                 '}';
-    }
-
-    public interface StudentComparator {
-        int compare(Student o1, Student o2);
     }
 }

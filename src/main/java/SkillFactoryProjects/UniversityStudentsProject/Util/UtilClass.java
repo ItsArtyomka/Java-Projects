@@ -1,4 +1,4 @@
-package SkillFactoryProjects.UniversityStudentsProject.MainCode;
+package SkillFactoryProjects.UniversityStudentsProject.Util;
 
 import SkillFactoryProjects.UniversityStudentsProject.Comparators.Student.*;
 import SkillFactoryProjects.UniversityStudentsProject.Comparators.University.*;

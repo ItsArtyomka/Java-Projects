@@ -1,11 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_INJECTED_CODE" value="false" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11f265c9-ba40-47aa-95cc-64fe2abfd42b" name="Changes" comment="New Commit: Restructured the projects and moved my course project.">
+    <list default="true" id="11f265c9-ba40-47aa-95cc-64fe2abfd42b" name="Changes" comment="New Commit: Restructured and finished the project.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/Boot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/Model/Info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/Util/StatisticsUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/Writers/JsonWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/Writers/XmlWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logging.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/universityInfo.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/Comparators/Student/StudentAvgExamScoreComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/Comparators/Student/StudentAvgExamScoreComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/Comparators/Student/StudentComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/Comparators/Student/StudentComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/Comparators/Student/StudentCurrentCourseNumberComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/Comparators/Student/StudentCurrentCourseNumberComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/Comparators/Student/StudentFullNameComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/Comparators/Student/StudentFullNameComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/Comparators/Student/StudentUniversityIdComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/Comparators/Student/StudentUniversityIdComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/Comparators/University/UniversityComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/Comparators/University/UniversityComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/Comparators/University/UniversityFullNameComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/Comparators/University/UniversityFullNameComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/Comparators/University/UniversityIdComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/Comparators/University/UniversityIdComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/Comparators/University/UniversityShortNameComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/Comparators/University/UniversityShortNameComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/Comparators/University/UniversityStudyProfileComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/Comparators/University/UniversityStudyProfileComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/Comparators/University/UniversityYearOfFoundationComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/Comparators/University/UniversityYearOfFoundationComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/MainCode/JsonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/Util/JsonUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/MainCode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/MainCode/Statistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/Model/Statistics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/MainCode/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/Model/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/MainCode/University.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/Model/University.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/MainCode/UtilClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/Util/UtilClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/MainCode/XlsBoot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/XlsIO/XlsReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/Readers/XlsReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/XlsIO/XlsWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SkillFactoryProjects/UniversityStudentsProject/Writers/XlsWriter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,9 +76,49 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Artyom\Desktop\Java\Java-Projects\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.XlsBoot">
+    <configuration name="Boot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SkillFactoryProjects.UniversityStudentsProject.Boot" />
+      <module name="Java-Projects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SkillFactoryProjects.UniversityStudentsProject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SkillFactoryProjects.UniversityStudentsProject.Main" />
+      <module name="Java-Projects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SkillFactoryProjects.UniversityStudentsProject.Writers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.XlsBoot" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -58,6 +129,9 @@
       <updated>1695675537528</updated>
       <workItem from="1695675539035" duration="2718000" />
       <workItem from="1695754245613" duration="6337000" />
+      <workItem from="1695847717627" duration="894000" />
+      <workItem from="1696021593367" duration="47000" />
+      <workItem from="1696354770851" duration="7293000" />
     </task>
     <task id="LOCAL-00001" summary="New Commit: Added Maven and restructured my projects.">
       <option name="closed" value="true" />
@@ -75,7 +149,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695760612583</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="New Commit: Restructured the project">
+      <option name="closed" value="true" />
+      <created>1695848363920</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1695848363920</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,6 +178,8 @@
     <MESSAGE value="New Commit: Added Maven and restructured my projects" />
     <MESSAGE value="New Commit: Added Maven and restructured my projects." />
     <MESSAGE value="New Commit: Restructured the projects and moved my course project." />
-    <option name="LAST_COMMIT_MESSAGE" value="New Commit: Restructured the projects and moved my course project." />
+    <MESSAGE value="New Commit: Restructured the project" />
+    <MESSAGE value="New Commit: Restructured and finished the project." />
+    <option name="LAST_COMMIT_MESSAGE" value="New Commit: Restructured and finished the project." />
   </component>
 </project>

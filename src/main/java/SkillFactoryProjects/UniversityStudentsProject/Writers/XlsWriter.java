@@ -1,6 +1,6 @@
-package SkillFactoryProjects.UniversityStudentsProject.XlsIO;
+package SkillFactoryProjects.UniversityStudentsProject.Writers;
 
-import SkillFactoryProjects.UniversityStudentsProject.MainCode.Statistics;
+import SkillFactoryProjects.UniversityStudentsProject.Model.Statistics;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.CellStyle;
 import org.apache.poi.ss.usermodel.Font;
@@ -11,12 +11,21 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
+@SuppressWarnings("ReassignedVariable")
 public class XlsWriter {
-    private XlsWriter() {}
+    // Logger
+    private static final Logger logger = Logger.getLogger(XlsWriter.class.getName());
+
+    private XlsWriter() {
+    }
 
     @SuppressWarnings("resource")
-    public void writeXlsStatistics(List<Statistics> statisticsList, String filePath) throws IOException {
+    public static void writeXlsStatistics(List<Statistics> statisticsList, String filePath) {
+        logger.log(Level.INFO, "Excel Writing Started...");
+
         // Creating Workbook
         XSSFWorkbook xssfWorkbook = new XSSFWorkbook();
         XSSFSheet xssfSheet = xssfWorkbook.createSheet("Statistics");
@@ -85,6 +94,10 @@ public class XlsWriter {
         // File Output
         try (FileOutputStream fileOutputStream = new FileOutputStream(filePath)) {
             xssfWorkbook.write(fileOutputStream);
+        } catch (IOException exception) {
+            logger.log(Level.INFO, "Writing To Excel Error", exception);
         }
+
+        logger.log(Level.INFO, "Excel Writing Finished");
     }
 }

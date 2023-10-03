@@ -1,16 +1,38 @@
-package SkillFactoryProjects.UniversityStudentsProject.MainCode;
+package SkillFactoryProjects.UniversityStudentsProject.Model;
 
 import SkillFactoryProjects.UniversityStudentsProject.Enums.StudyProfile;
+import com.google.gson.annotations.SerializedName;
 
-import java.util.Comparator;
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlTransient;
 
+@XmlAccessorType(XmlAccessType.FIELD)
 public class University {
 
+    @SerializedName("universityId")
+    @XmlElement(name = "universityId")
     private String id;
+
+    @SerializedName("universityName")
+    @XmlElement(name = "universityName")
     private String fullName;
+
+    @SerializedName("universityShortName")
+    @XmlTransient
     private String shortName;
+
+    @SerializedName("foundation")
+    @XmlTransient
     private int yearOfFoundation;
+
+    @SerializedName("profile")
+    @XmlElement(name = "universityProfile")
     private StudyProfile mainProfile;
+
+    public University() {
+    }
 
     public University(String id, String fullName, String shortName, int yearOfFoundation, StudyProfile mainProfile) {
         this.id = id;
@@ -19,8 +41,6 @@ public class University {
         this.yearOfFoundation = yearOfFoundation;
         this.mainProfile = mainProfile;
     }
-
-    public University() {}
 
     public String getId() {
         return id;
@@ -71,10 +91,5 @@ public class University {
                 ", yearOfFoundation=" + yearOfFoundation +
                 ", mainProfile=" + mainProfile +
                 '}';
-    }
-
-    interface UniversityComparator<T> extends Comparator<T> {
-        @Override
-        int compare(T o1, T o2);
     }
 }
