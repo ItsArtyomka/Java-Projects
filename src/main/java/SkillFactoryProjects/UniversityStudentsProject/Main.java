@@ -16,8 +16,6 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
-        // Logger Co
-
         //Lists
         List<Student> students = new ArrayList<>();
         List<University> universities = new ArrayList<>();

@@ -32,7 +32,7 @@ public class XlsReader {
 
             FileInputStream inputStream = new FileInputStream(filePath);
             XSSFWorkbook workbook = new XSSFWorkbook(inputStream);
-            XSSFSheet sheet = workbook.getSheet("Universities");
+            XSSFSheet sheet = workbook.getSheet("Университеты");
 
             Iterator<Row> rows = sheet.iterator();
             rows.next();
@@ -67,7 +67,7 @@ public class XlsReader {
 
             FileInputStream inputStream = new FileInputStream(filePath);
             XSSFWorkbook workbook = new XSSFWorkbook(inputStream);
-            XSSFSheet sheet = workbook.getSheet("Student");
+            XSSFSheet sheet = workbook.getSheet("Студенты");
 
             Iterator<Row> rows = sheet.iterator();
             rows.next();
